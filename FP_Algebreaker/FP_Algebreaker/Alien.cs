@@ -15,15 +15,19 @@ namespace FP_Algebreaker
         public PictureBox AlienPictureBox { get; set; }
         public ProgressBar HealthBar { get; private set; }
         public event Action<Alien> AlienDied;
+        public string ImagePath { get; protected set; }
 
         // Konstruktor dasar
-        public Alien(Point startPosition)
+        public Alien(Point startPosition, string imagePath)
         {
+            ImagePath = imagePath; // Assign path gambar
             AlienPictureBox = new PictureBox
             {
-                Size = new Size(32, 48),
+                Size = new Size(48, 64),
                 Location = startPosition,
-                BackColor = Color.Purple // Warna ungu sebagai placeholder
+                BackColor = Color.Transparent, // Pastikan transparan
+                Image = Image.FromFile(ImagePath), // Atur gambar
+                SizeMode = PictureBoxSizeMode.StretchImage // Menyesuaikan ukuran
             };
 
             MaxHealth = 100; // Nilai default
@@ -93,7 +97,7 @@ namespace FP_Algebreaker
     // RookieAlien - Mengimplementasikan metode fisik dan dapat menyebabkan damage
     public class RookieAlien : Alien
     {
-        public RookieAlien(Point startPosition) : base(startPosition)
+        public RookieAlien(Point startPosition) : base(startPosition, @"Assets\alien_rookie.png")
         {
             MaxHealth = 50;
             CurrentHealth = MaxHealth;
@@ -127,7 +131,7 @@ namespace FP_Algebreaker
     // KacynzkiAlien - Bisa meledak saat bersenggolan dengan player
     public class KacynzkiAlien : Alien
     {
-        public KacynzkiAlien(Point startPosition) : base(startPosition)
+        public KacynzkiAlien(Point startPosition) : base(startPosition, @"Assets\alien_bomb.png")
         {
             MaxHealth = 70;
             CurrentHealth = MaxHealth;
@@ -153,7 +157,7 @@ namespace FP_Algebreaker
             if (player.IsAlive() && AlienPictureBox.Bounds.IntersectsWith(player.GetPictureBoxes()[0].Bounds))
             {
                 TakeDamage(50); // Mengurangi health alien lebih banyak karena ledakan
-                player.TakeDamage(30); // Memberikan damage lebih besar ke player
+                player.TakeDamage(100); // Memberikan damage lebih besar ke player
             }
         }
     }
@@ -163,15 +167,15 @@ namespace FP_Algebreaker
     {
         private System.Windows.Forms.Timer _teleportTimer;
         private Player _player;
-        public EldritchHorrorAlien(Point startPosition, Player player) : base(startPosition)
+        public EldritchHorrorAlien(Point startPosition, Player player) : base(startPosition, @"Assets\alien_eldritch.png")
         {
-            _player = player; // Menyimpan referensi objek player
+            _player = player;
             MaxHealth = 100;
             CurrentHealth = MaxHealth;
 
             _teleportTimer = new System.Windows.Forms.Timer
             {
-                Interval = 7000 // 7 detik
+                Interval = 7000
             };
             _teleportTimer.Tick += (sender, e) => Teleport();
             _teleportTimer.Start();
