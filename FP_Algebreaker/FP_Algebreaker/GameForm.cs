@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Numerics;
 using System.Text;
@@ -22,6 +23,10 @@ namespace FP_Algebreaker
         private List<Alien> _aliens = new List<Alien>();
         private Timer _animationTimer;
         private MathForm _mathForm;
+        private Label _timeLabel = new Label();
+        private Label _killCountLabel = new Label();
+        private int _timeAmount = 0;
+        public static int _killCountAmount = 0;
 
 
         public GameForm()
@@ -37,6 +42,34 @@ namespace FP_Algebreaker
             this.Size = new Size(FormWidth, FormHeight);
             this.StartPosition = FormStartPosition.CenterScreen;
             this.BackgroundImageLayout = ImageLayout.Stretch;
+
+            _timeLabel = new Label
+            {
+                Text = "Time: " + _timeAmount,   // Display text with current score
+                Location = new Point(10, 10),       // Set position (x: 10, y: 10)
+                Size = new Size(100, 30),           // Set the size of the label
+                AutoSize = true,                    // Automatically adjust size based on content
+                Font = new Font("Arial", 8, FontStyle.Bold), // Set font style
+                ForeColor = Color.White,            // Set text color
+                BackColor = Color.Transparent,      // Set background color (e.g., transparent)
+                TextAlign = ContentAlignment.MiddleLeft // Align text within the label
+            };
+
+            _killCountLabel = new Label
+            {
+                Text = "Kill Count: " + _timeAmount,   // Display text with current score
+                Location = new Point(10, 40),       // Set position (x: 10, y: 10)
+                Size = new Size(100, 30),           // Set the size of the label
+                AutoSize = true,                    // Automatically adjust size based on content
+                Font = new Font("Arial", 8, FontStyle.Bold), // Set font style
+                ForeColor = Color.White,            // Set text color
+                BackColor = Color.Transparent,      // Set background color (e.g., transparent)
+                TextAlign = ContentAlignment.MiddleLeft // Align text within the label
+            };
+
+            this.Controls.Add(_timeLabel);
+            this.Controls.Add(_killCountLabel);
+
 
             _animationTimer = new Timer
             {
@@ -156,8 +189,20 @@ namespace FP_Algebreaker
         //Untuk render animasi
         private void Render()
         {
-            this.Invalidate();
-            _mainCharacter.Animate();
+            if (_mainCharacter.IsAlive())
+            {
+                this.Invalidate();
+                _timeAmount += 1;
+                _timeLabel.Text = "Time Alive: " + _timeAmount;
+                _killCountLabel.Text = "Kill Count: " + _killCountAmount;
+                this.Invalidate();
+                _mainCharacter.Animate();
+            }
+            else
+            {
+                _animationTimer.Stop();
+            }
+
 
             // Memperbarui posisi alien dan mengejar pemain
             for (int i = _aliens.Count - 1; i >= 0; i--) // Iterasi mundur untuk aman
@@ -184,6 +229,8 @@ namespace FP_Algebreaker
                     this.Controls.Remove(alien.AlienPictureBox);
                     this.Controls.Remove(alien.HealthBar);
                     _aliens.RemoveAt(i);
+
+
                 }
                 else
                 {

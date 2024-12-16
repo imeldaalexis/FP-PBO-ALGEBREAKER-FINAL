@@ -60,6 +60,7 @@ namespace FP_Algebreaker
         private void Die()
         {
             Debug.WriteLine("Alien has died");
+            GameForm._killCountAmount++;
             AlienPictureBox.Hide();
             HealthBar.Hide();
             AlienDied?.Invoke(this);
