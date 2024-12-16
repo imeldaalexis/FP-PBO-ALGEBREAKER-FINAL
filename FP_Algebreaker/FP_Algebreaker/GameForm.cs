@@ -57,7 +57,7 @@ namespace FP_Algebreaker
              );
             var pictureBoxes = _mainCharacter.GetPictureBoxes();
             var healthBar = _mainCharacter.GetHealthBar(); // Dapatkan ProgressBar
-            
+
             PictureBox playerBox = pictureBoxes[0];
             PictureBox gunBox = pictureBoxes[1];
 
@@ -90,6 +90,45 @@ namespace FP_Algebreaker
                 this.Controls.Add(alien.HealthBar);
 
                 alien.UpdateHealthBarPosition();
+                // Hubungkan event AlienDied
+                alien.AlienDied += RespawnAlien;
+            }
+        }
+
+        private void RespawnAlien(Alien deadAlien)
+        {
+            Alien newAlien = null;
+
+            // Inisialisasi random generator
+            Random random = new Random();
+            int randomX = random.Next(50, this.ClientSize.Width - 100); // Rentang X (pastikan alien tetap dalam layar)
+            int randomY = random.Next(50, this.ClientSize.Height - 100); // Rentang Y
+
+            Point randomLocation = new Point(randomX, randomY);
+
+            // Buat alien baru berdasarkan tipe alien yang mati
+            if (deadAlien is RookieAlien)
+            {
+                newAlien = new RookieAlien(randomLocation);
+            }
+            else if (deadAlien is KacynzkiAlien)
+            {
+                newAlien = new KacynzkiAlien(randomLocation);
+            }
+            else if (deadAlien is EldritchHorrorAlien)
+            {
+                newAlien = new EldritchHorrorAlien(randomLocation, _mainCharacter);
+            }
+
+            if (newAlien != null)
+            {
+                _aliens.Add(newAlien);
+                this.Controls.Add(newAlien.AlienPictureBox);
+                this.Controls.Add(newAlien.HealthBar);
+                newAlien.UpdateHealthBarPosition();
+
+                // Hubungkan event AlienDied untuk alien baru
+                newAlien.AlienDied += RespawnAlien;
             }
         }
 
@@ -121,24 +160,32 @@ namespace FP_Algebreaker
             _mainCharacter.Animate();
 
             // Memperbarui posisi alien dan mengejar pemain
-            foreach (var alien in _aliens)
+            for (int i = _aliens.Count - 1; i >= 0; i--) // Iterasi mundur untuk aman
             {
+                var alien = _aliens[i];
                 alien.ChasePlayer(_mainCharacter.GetPictureBoxes()[0].Location);
 
                 if (alien is RookieAlien rookie)
                 {
-                    rookie.PhysicalAttack(_mainCharacter); // Memanggil metode PhysicalAttack jika alien ini adalah RookieAlien
+                    rookie.PhysicalAttack(_mainCharacter);
                 }
                 else if (alien is KacynzkiAlien kacynzki)
                 {
-                    kacynzki.BombAttack(_mainCharacter); // Memanggil metode BombAttack jika alien ini adalah KacynzkiAlien
+                    kacynzki.BombAttack(_mainCharacter);
                 }
                 else if (alien is EldritchHorrorAlien eldritchHorror)
                 {
-                    eldritchHorror.PhysicalAttack(_mainCharacter); // Memanggil metode BombAttack jika alien ini adalah KacynzkiAlien
+                    eldritchHorror.PhysicalAttack(_mainCharacter);
                 }
 
-                if (alien.IsAlive())
+                if (!alien.IsAlive())
+                {
+                    // Alien mati, hapus dari form dan koleksi
+                    this.Controls.Remove(alien.AlienPictureBox);
+                    this.Controls.Remove(alien.HealthBar);
+                    _aliens.RemoveAt(i);
+                }
+                else
                 {
                     alien.UpdateHealthBarPosition();
                 }

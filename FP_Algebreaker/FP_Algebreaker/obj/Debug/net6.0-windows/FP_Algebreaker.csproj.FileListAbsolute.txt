@@ -48,3 +48,20 @@ C:\Users\lenovo\Documents\KULIAH SEM 2\OOP\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreak
 C:\Users\lenovo\Documents\KULIAH SEM 2\OOP\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\obj\Debug\net6.0-windows\FP_Algebreaker.pdb
 C:\Users\lenovo\Documents\KULIAH SEM 2\OOP\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\obj\Debug\net6.0-windows\FP_Algebreaker.genruntimeconfig.cache
 C:\Users\lenovo\Documents\KULIAH SEM 2\OOP\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\obj\Debug\net6.0-windows\ref\FP_Algebreaker.dll
+D:\SEMESTER 3\PBO\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\bin\Debug\net6.0-windows\FP_Algebreaker.exe
+D:\SEMESTER 3\PBO\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\bin\Debug\net6.0-windows\FP_Algebreaker.deps.json
+D:\SEMESTER 3\PBO\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\bin\Debug\net6.0-windows\FP_Algebreaker.runtimeconfig.json
+D:\SEMESTER 3\PBO\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\bin\Debug\net6.0-windows\FP_Algebreaker.dll
+D:\SEMESTER 3\PBO\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\bin\Debug\net6.0-windows\FP_Algebreaker.pdb
+D:\SEMESTER 3\PBO\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\obj\Debug\net6.0-windows\FP_Algebreaker.MainForm.resources
+D:\SEMESTER 3\PBO\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\obj\Debug\net6.0-windows\FP_Algebreaker.csproj.GenerateResource.cache
+D:\SEMESTER 3\PBO\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\obj\Debug\net6.0-windows\FP_Algebreaker.GeneratedMSBuildEditorConfig.editorconfig
+D:\SEMESTER 3\PBO\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\obj\Debug\net6.0-windows\FP_Algebreaker.AssemblyInfoInputs.cache
+D:\SEMESTER 3\PBO\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\obj\Debug\net6.0-windows\FP_Algebreaker.AssemblyInfo.cs
+D:\SEMESTER 3\PBO\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\obj\Debug\net6.0-windows\FP_Algebreaker.csproj.CoreCompileInputs.cache
+D:\SEMESTER 3\PBO\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\obj\Debug\net6.0-windows\FP_Algebreaker.sourcelink.json
+D:\SEMESTER 3\PBO\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\obj\Debug\net6.0-windows\FP_Algebreaker.dll
+D:\SEMESTER 3\PBO\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\obj\Debug\net6.0-windows\refint\FP_Algebreaker.dll
+D:\SEMESTER 3\PBO\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\obj\Debug\net6.0-windows\FP_Algebreaker.pdb
+D:\SEMESTER 3\PBO\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\obj\Debug\net6.0-windows\FP_Algebreaker.genruntimeconfig.cache
+D:\SEMESTER 3\PBO\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\obj\Debug\net6.0-windows\ref\FP_Algebreaker.dll

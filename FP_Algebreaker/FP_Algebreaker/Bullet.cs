@@ -51,9 +51,38 @@ namespace FP_Algebreaker
         {
             CekArahBulletDanTembak(_currentRowBullet);
 
-            foreach (var alien in _aliens)  // Pastikan 'aliens' adalah daftar alien yang aktif di dalam game
+            var aliensToRemove = new List<Alien>();
+
+            // Periksa tabrakan antara peluru dan setiap alien
+            foreach (var alien in _aliens.ToList())
             {
-                CheckCollisionWithAlien(alien);  // Cek tabrakan dengan setiap alien
+                if (_bulletPicBox.Bounds.IntersectsWith(alien.AlienPictureBox.Bounds))
+                {
+                    alien.TakeDamage(10); // Berikan damage ke alien
+                    alien.UpdateHealthBar();
+                    Debug.WriteLine("Alien terkena tembakan! Health Alien: " + alien.CurrentHealth);
+
+                    if (alien.CurrentHealth <= 0)
+                    {
+                        aliensToRemove.Add(alien); // Tambahkan ke daftar alien untuk dihapus
+                    }
+
+                    _bulletPicBox.Hide(); // Sembunyikan peluru setelah mengenai alien
+                    _bulletTimer.Stop();
+
+                    // Hapus peluru dari form
+                    if (_bulletPicBox.Parent != null)
+                    {
+                        _bulletPicBox.Parent.Controls.Remove(_bulletPicBox);
+                    }
+                    break; // Peluru hanya bisa mengenai satu alien
+                }
+            }
+
+            // Hapus alien yang sudah mati dari daftar alien
+            foreach (var alien in aliensToRemove)
+            {
+                _aliens.Remove(alien);
             }
         }
 
@@ -80,24 +109,6 @@ namespace FP_Algebreaker
                 case 3:
                     _bulletPicBox.Left += _bulletSpeed;
                     break;
-            }
-        }
-
-        public void CheckCollisionWithAlien(Alien alien)
-        {
-            if (_bulletPicBox.Bounds.IntersectsWith(alien.AlienPictureBox.Bounds))
-            {
-                alien.TakeDamage(10);  // Berikan damage ke alien
-                alien.UpdateHealthBar();
-                Debug.WriteLine("Alien terkena tembakan! Health Alien: " + alien.CurrentHealth);
-                _bulletPicBox.Hide();  // Sembunyikan peluru setelah mengenai alien
-                _bulletTimer.Stop();
-
-                // Hapus bullet dari form setelah tabrakan
-                if (this.GetPictureBox().Parent != null)
-                {
-                    this.GetPictureBox().Parent.Controls.Remove(this.GetPictureBox());
-                }
             }
         }
 

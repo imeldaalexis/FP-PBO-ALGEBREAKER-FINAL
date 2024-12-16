@@ -14,6 +14,7 @@ namespace FP_Algebreaker
         public int MaxHealth { get; set; }
         public PictureBox AlienPictureBox { get; set; }
         public ProgressBar HealthBar { get; private set; }
+        public event Action<Alien> AlienDied;
 
         // Konstruktor dasar
         public Alien(Point startPosition)
@@ -57,6 +58,7 @@ namespace FP_Algebreaker
             Debug.WriteLine("Alien has died");
             AlienPictureBox.Hide();
             HealthBar.Hide();
+            AlienDied?.Invoke(this);
         }
 
         public void Heal(int amount)
