@@ -1,0 +1,220 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|d:\\semester 3\\pbo\\fp algebreaker\\fp algebreaker\\fp_algebreaker\\fp_algebreaker\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|d:\\semester 3\\pbo\\fp algebreaker\\fp algebreaker\\fp_algebreaker\\fp_algebreaker\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|d:\\semester 3\\pbo\\fp algebreaker\\fp algebreaker\\fp_algebreaker\\fp_algebreaker\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|d:\\semester 3\\pbo\\fp algebreaker\\fp algebreaker\\fp_algebreaker\\fp_algebreaker\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|d:\\semester 3\\pbo\\fp algebreaker\\fp algebreaker\\fp_algebreaker\\fp_algebreaker\\alien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\alien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|d:\\semester 3\\pbo\\fp algebreaker\\fp algebreaker\\fp_algebreaker\\fp_algebreaker\\iheatlh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\iheatlh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|d:\\semester 3\\pbo\\fp algebreaker\\fp algebreaker\\fp_algebreaker\\fp_algebreaker\\ihealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\ihealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|d:\\semester 3\\pbo\\fp algebreaker\\fp algebreaker\\fp_algebreaker\\fp_algebreaker\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|d:\\semester 3\\pbo\\fp algebreaker\\fp algebreaker\\fp_algebreaker\\fp_algebreaker\\soalalgebraic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\soalalgebraic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|d:\\semester 3\\pbo\\fp algebreaker\\fp algebreaker\\fp_algebreaker\\fp_algebreaker\\soal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\soal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|d:\\semester 3\\pbo\\fp algebreaker\\fp algebreaker\\fp_algebreaker\\fp_algebreaker\\mathform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\mathform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\fp_algebreaker\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\Player.cs",
+              "RelativeDocumentMoniker": "FP_Algebreaker\\Player.cs",
+              "ToolTip": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\Player.cs",
+              "RelativeToolTip": "FP_Algebreaker\\Player.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T09:57:13.38Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameForm.cs",
+              "DocumentMoniker": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\GameForm.cs",
+              "RelativeDocumentMoniker": "FP_Algebreaker\\GameForm.cs",
+              "ToolTip": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\GameForm.cs",
+              "RelativeToolTip": "FP_Algebreaker\\GameForm.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAEkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T09:51:52.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Alien.cs",
+              "DocumentMoniker": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\Alien.cs",
+              "RelativeDocumentMoniker": "FP_Algebreaker\\Alien.cs",
+              "ToolTip": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\Alien.cs",
+              "RelativeToolTip": "FP_Algebreaker\\Alien.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwBkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T18:23:22.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Gun.cs",
+              "DocumentMoniker": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\Gun.cs",
+              "RelativeDocumentMoniker": "FP_Algebreaker\\Gun.cs",
+              "ToolTip": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\Gun.cs",
+              "RelativeToolTip": "FP_Algebreaker\\Gun.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwBMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T13:25:16.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\Bullet.cs",
+              "RelativeDocumentMoniker": "FP_Algebreaker\\Bullet.cs",
+              "ToolTip": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\Bullet.cs",
+              "RelativeToolTip": "FP_Algebreaker\\Bullet.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T15:23:10.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IHeatlh.cs",
+              "DocumentMoniker": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\IHeatlh.cs",
+              "RelativeDocumentMoniker": "FP_Algebreaker\\IHeatlh.cs",
+              "ToolTip": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\IHeatlh.cs",
+              "RelativeToolTip": "FP_Algebreaker\\IHeatlh.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T14:47:11.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IHealthBar.cs",
+              "DocumentMoniker": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\IHealthBar.cs",
+              "RelativeDocumentMoniker": "FP_Algebreaker\\IHealthBar.cs",
+              "ToolTip": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\IHealthBar.cs",
+              "RelativeToolTip": "FP_Algebreaker\\IHealthBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T10:13:23.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\MainForm.cs",
+              "RelativeDocumentMoniker": "FP_Algebreaker\\MainForm.cs",
+              "ToolTip": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\MainForm.cs",
+              "RelativeToolTip": "FP_Algebreaker\\MainForm.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T09:47:12.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SoalAlgebraic.cs",
+              "DocumentMoniker": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\SoalAlgebraic.cs",
+              "RelativeDocumentMoniker": "FP_Algebreaker\\SoalAlgebraic.cs",
+              "ToolTip": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\SoalAlgebraic.cs",
+              "RelativeToolTip": "FP_Algebreaker\\SoalAlgebraic.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wBAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T15:21:20.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Soal.cs",
+              "DocumentMoniker": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\Soal.cs",
+              "RelativeDocumentMoniker": "FP_Algebreaker\\Soal.cs",
+              "ToolTip": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\Soal.cs",
+              "RelativeToolTip": "FP_Algebreaker\\Soal.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T15:21:00.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MathForm.cs",
+              "DocumentMoniker": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\MathForm.cs",
+              "RelativeDocumentMoniker": "FP_Algebreaker\\MathForm.cs",
+              "ToolTip": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\MathForm.cs",
+              "RelativeToolTip": "FP_Algebreaker\\MathForm.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAwwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T15:20:25.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\MainForm.cs",
+              "RelativeDocumentMoniker": "FP_Algebreaker\\MainForm.cs",
+              "ToolTip": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\MainForm.cs [Design]",
+              "RelativeToolTip": "FP_Algebreaker\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T09:51:35.741Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
