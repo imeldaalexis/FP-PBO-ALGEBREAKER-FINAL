@@ -105,7 +105,7 @@ namespace FP_Algebreaker
             return CurrentHealth > 0;
         }
 
-        public void Walk(Keys key, Size boundary, Form form)
+        public void Walk(Keys key, Size boundary, Form form, List<Alien> aliens)
         {
             int speed = 10;
             _isMoving = true; // this will be used in Animate(), to signal that yes, I am moving, please animate me
@@ -141,7 +141,7 @@ namespace FP_Algebreaker
                     }
                     break;
                 case Keys.Enter:
-                    _playerGun.ShootManual(form, _playerPictureBox.Location, _currentRow);  // Pass form to add control for bullets
+                    _playerGun.ShootManual(form, _playerPictureBox.Location, _currentRow, aliens);  // Pass form to add control for bullets
                     break;
                 case Keys.R:
                 default:

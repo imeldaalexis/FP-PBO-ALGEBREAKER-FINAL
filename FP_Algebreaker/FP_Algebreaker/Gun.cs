@@ -25,14 +25,14 @@ namespace FP_Algebreaker
         }
 
         // method ketika dipress key Enter
-        public void ShootManual(Form gameform, Point playerPosition, int currentPlayerRow)
+        public void ShootManual(Form gameform, Point playerPosition, int currentPlayerRow, List<Alien> aliens)
         {
             //move bullet to current position of 
             _gunPicBox.Location = playerPosition;
             //_gunPicBox.BackColor = Color.Transparent;
             if (Bullet._currentAmmo > 0)
             {
-                _bullet = new Bullet(_gunPicBox.Location, currentPlayerRow);
+                _bullet = new Bullet(_gunPicBox.Location, currentPlayerRow, aliens);
                 gameform.Controls.Add(_bullet.GetPictureBox());
                 Bullet._currentAmmo -= 1;
                 Debug.WriteLine($"Bullet fired! Current Ammo: {Bullet._currentAmmo}");

@@ -21,7 +21,7 @@ namespace FP_Algebreaker
         private List<Alien> _aliens = new List<Alien>();
 
         //Konstruktor
-        public Bullet(Point gunPosition, int currentRow)
+        public Bullet(Point gunPosition, int currentRow, List<Alien> _alienspassed)
         {
             _bulletPicBox = new PictureBox
             {
@@ -31,6 +31,8 @@ namespace FP_Algebreaker
                 SizeMode = PictureBoxSizeMode.StretchImage,
                 BackColor = Color.Transparent
             };
+
+            _aliens = _alienspassed;
 
             _bulletTimer = new Timer
             {

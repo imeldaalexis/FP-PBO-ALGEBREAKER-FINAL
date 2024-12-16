@@ -106,7 +106,7 @@ namespace FP_Algebreaker
                     // Hide the GameForm when MathForm is shown
                 }
             }
-            _mainCharacter.Walk(e.KeyCode, this.ClientSize, this);
+            _mainCharacter.Walk(e.KeyCode, this.ClientSize, this, _aliens);
         }
 
         private void onKeyUp(object sender, KeyEventArgs e)
