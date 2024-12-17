@@ -18,6 +18,8 @@ namespace FP_Algebreaker
         private const string HighScoreFilePath = @"Assets\HighScore.txt";
         private int _gameFormTimeScore;
         private int _gameFormKillScore;
+        private int _labelXPoint = 300;
+        private int _labelYPointTop = 200;
 
         public HighScoreForm()
         {
@@ -55,26 +57,29 @@ namespace FP_Algebreaker
 
         private void InitializeForm()
         {
-            this.Text = "Form";
+            this.Text = "High Score";
             this.Size = new Size(FormWidth, FormHeight);
+            this.BackgroundImage = Image.FromFile(@"Assets\HighScoreBackground.png");
             this.StartPosition = FormStartPosition.CenterScreen;
 
             // Label: Time Score
             _highScoreTimeLabel = new Label
             {
-                Text = $"Time Score: {_gameFormTimeScore}",
+                Text = $"⏰ Time Score: {_gameFormTimeScore}",
                 Font = new Font("Arial", 20, FontStyle.Bold),
-                Location = new Point(50, 100),
-                AutoSize = true
+                Location = new Point(_labelXPoint - 20, _labelYPointTop),
+                AutoSize = true,
+                BackColor = Color.White
             };
 
             // Label: Kill Score
             _highScoreKillLabel = new Label
             {
-                Text = $"Kill Score: {_gameFormKillScore}",
+                Text = $"🔫 Kill Score: {_gameFormKillScore}",
                 Font = new Font("Arial", 20, FontStyle.Bold),
-                Location = new Point(50, 200),
-                AutoSize = true
+                Location = new Point(_labelXPoint, _labelYPointTop + 100),
+                AutoSize = true,
+                BackColor = Color.White
             };
 
             // Add labels to the form

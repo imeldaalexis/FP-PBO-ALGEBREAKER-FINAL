@@ -227,17 +227,17 @@ namespace FP_Algebreaker
             else
             {
                 _animationTimer.Stop();
-                
+
                 if (File.Exists(HighScoreFilePath))
                 {
                     Debug.WriteLine($"Reading file. KillCount = {_killCountAmount}");
                     string[] scores = File.ReadAllLines(HighScoreFilePath);
 
-                    
+
                     Debug.WriteLine("Reading file");
-                    fileKillCount = int.Parse(scores[0]); // Line 1: Kill Score
-                    fileTimeCount = int.Parse(scores[1]); // Line 2: Time Score
-                    
+                    fileTimeCount = int.Parse(scores[0]); // Line 1: Time Score
+                    fileKillCount = int.Parse(scores[1]); // Line 2: Kill Score
+
 
                     if (_killCountAmount > fileKillCount || (_killCountAmount == fileKillCount && _timeAmount < fileTimeCount))
                     {
@@ -245,8 +245,8 @@ namespace FP_Algebreaker
                         // Update the file with the new scores
                         File.WriteAllLines(HighScoreFilePath, new string[]
                         {
-                            _killCountAmount.ToString(),   // Line 1: Updated Kill Score
-                            _timeAmount.ToString()  // Line 2: Updated Time Score
+                            _timeAmount.ToString(), // Line 1: Updated Time Score
+                            _killCountAmount.ToString()   // Line 2: Updated Kill Score 
                         });
                     }
                 }
@@ -256,6 +256,7 @@ namespace FP_Algebreaker
 
                 SoundPlayer gameoverSound = new SoundPlayer(@"Sound\gameOver.wav");
                 gameoverSound.Play();
+
                 this.Close();
             }
 

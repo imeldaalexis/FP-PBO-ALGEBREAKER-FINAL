@@ -27,7 +27,7 @@ namespace FP_Algebreaker
             this.Text = "Do the Math to Reload!";
             this.Size = new Size(FormWidth, FormHeight);
             this.StartPosition = FormStartPosition.CenterScreen;
-
+            this.BackgroundImage = Image.FromFile(@"Assets\MathFormBackground.png");
         }
 
         public void InitializeSoalMat()
@@ -54,6 +54,7 @@ namespace FP_Algebreaker
 
             Label questionLabel = new Label
             {
+                BackColor = Color.White,
                 Text = _soalAlgebraic.GetExpression(),
                 Width = 400,
                 Location = new Point((FormWidth / 2 - 120), (FormHeight / 2 - 100))

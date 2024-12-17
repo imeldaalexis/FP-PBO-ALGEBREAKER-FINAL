@@ -20,7 +20,9 @@ namespace FP_Algebreaker
         {
             this.Text = "Main Menu";
             this.Size = new Size(800, 600);
+            this.BackgroundImage = Image.FromFile(@"Assets\cover_art.png");
             this.StartPosition = FormStartPosition.CenterScreen;
+            this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
         private void InitializeControl()
@@ -29,6 +31,8 @@ namespace FP_Algebreaker
             {
                 Size = new Size(150, 40),
                 Text = "Start",
+                BackColor = Color.FromArgb(255, 208, 0),
+                ForeColor = Color.FromArgb(86, 70, 0),
                 TextAlign = ContentAlignment.MiddleCenter,
                 Location = new Point(_xOfAllButton, _topButtonStartPosition)
             };
@@ -39,6 +43,8 @@ namespace FP_Algebreaker
             {
                 Size = new Size(150, 40),
                 Text = "High Score",
+                BackColor = Color.FromArgb(255, 208, 0),
+                ForeColor = Color.FromArgb(86, 70, 0),
                 TextAlign = ContentAlignment.MiddleCenter,
                 Location = new Point(_xOfAllButton, _topButtonStartPosition + 50)
             };
@@ -49,13 +55,13 @@ namespace FP_Algebreaker
             {
                 Size = new Size(150, 40),
                 Text = "Exit",
+                BackColor = Color.FromArgb(255, 208, 0),
+                ForeColor = Color.FromArgb(86, 70, 0),
                 TextAlign = ContentAlignment.MiddleCenter,
                 Location = new Point(_xOfAllButton, _topButtonStartPosition + 100)
             };
             _exitButton.Click += ExitButton_Click;
             this.Controls.Add(_exitButton);
-
-
         }
 
         private void StartButton_Click(object sender, EventArgs e)
