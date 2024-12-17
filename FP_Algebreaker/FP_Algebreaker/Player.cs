@@ -21,6 +21,7 @@ namespace FP_Algebreaker
         private MathForm _mathForm;
         private ProgressBar _healthBar; // ProgressBar untuk menampilkan health
         public ProgressBar HealthBar => _healthBar;
+        private Label _ammoLabel;
 
         // Properti Health
         public int CurrentHealth { get; set; }
@@ -55,6 +56,17 @@ namespace FP_Algebreaker
                 BackColor = Color.Gray,
                 ForeColor = Color.Green
             };
+
+            _ammoLabel = new Label
+            {
+                Text = $"Ammo: {Bullet._currentAmmo}/{Bullet._maxAmmo}",
+                AutoSize = true,
+                BackColor = Color.Transparent,
+                ForeColor = Color.White,
+                Font = new Font("Arial", 8, FontStyle.Bold)
+            };
+
+            UpdateAmmoLabelPosition();
 
             UpdateSprite();
         }
@@ -141,7 +153,7 @@ namespace FP_Algebreaker
                     }
                     break;
                 case Keys.Enter:
-                    _playerGun.ShootManual(form, _playerPictureBox.Location, _currentRow, aliens);  // Pass form to add control for bullets
+                    _playerGun.ShootManual(form, _playerPictureBox.Location, _currentRow, aliens, this);  // Pass form to add control for bullets
                     break;
                 case Keys.R:
                 default:
@@ -150,6 +162,7 @@ namespace FP_Algebreaker
 
             }
             UpdateHealthBarPosition();
+            UpdateAmmoLabelPosition();
             UpdateSprite();
         }
 
@@ -207,6 +220,25 @@ namespace FP_Algebreaker
                 _playerPictureBox.Top - 20
             );
         }
+
+        // Method untuk memperbarui posisi label di bawah pemain
+        public void UpdateAmmoLabelPosition()
+        {
+            _ammoLabel.Location = new Point(
+                _playerPictureBox.Left + (_playerPictureBox.Width / 2) - (_ammoLabel.Width / 2),
+                _playerPictureBox.Bottom + 5
+            );
+        }
+
+        // Method untuk memperbarui teks label ammo
+        public void UpdateAmmoLabel()
+        {
+            _ammoLabel.Text = $"Ammo: {Bullet._currentAmmo}/{Bullet._maxAmmo}";
+            UpdateAmmoLabelPosition();
+        }
+
+        // Method untuk mendapatkan label ammo
+        public Label GetAmmoLabel() => _ammoLabel;
 
     }
 }

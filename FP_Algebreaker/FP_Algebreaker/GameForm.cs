@@ -80,7 +80,11 @@ namespace FP_Algebreaker
                 Interval = _AnimationInterval
             };
             // Everytime it ticks, return render
-            _animationTimer.Tick += (sender, e) => Render();
+            _animationTimer.Tick += (sender, e) =>
+            {
+                Render();
+                _mainCharacter.UpdateAmmoLabelPosition();
+            };
             _animationTimer.Start();
 
             this.KeyDown += onKeyDown;
@@ -103,6 +107,8 @@ namespace FP_Algebreaker
 
             // Tambahkan health label ke dalam Form
             this.Controls.Add(healthBar);
+
+            this.Controls.Add(_mainCharacter.GetAmmoLabel());
 
             // Perbarui posisi awal health label
             _mainCharacter.UpdateHealthBarPosition();

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -25,7 +26,7 @@ namespace FP_Algebreaker
         }
 
         // method ketika dipress key Enter
-        public void ShootManual(Form gameform, Point playerPosition, int currentPlayerRow, List<Alien> aliens)
+        public void ShootManual(Form gameform, Point playerPosition, int currentPlayerRow, List<Alien> aliens, Player player)
         {
             //move bullet to current position of 
             _gunPicBox.Location = playerPosition;
@@ -36,6 +37,7 @@ namespace FP_Algebreaker
                 gameform.Controls.Add(_bullet.GetPictureBox());
                 Bullet._currentAmmo -= 1;
                 Debug.WriteLine($"Bullet fired! Current Ammo: {Bullet._currentAmmo}");
+                player.UpdateAmmoLabel();
             }
             else
             {

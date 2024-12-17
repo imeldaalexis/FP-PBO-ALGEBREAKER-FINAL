@@ -80,7 +80,7 @@
               "RelativeDocumentMoniker": "FP_Algebreaker\\Player.cs",
               "ToolTip": "D:\\SEMESTER 3\\PBO\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\Player.cs",
               "RelativeToolTip": "FP_Algebreaker\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwEEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T09:57:13.38Z",
               "IsPinned": true,
@@ -94,7 +94,7 @@
               "RelativeDocumentMoniker": "FP_Algebreaker\\GameForm.cs",
               "ToolTip": "D:\\SEMESTER 3\\PBO\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\GameForm.cs",
               "RelativeToolTip": "FP_Algebreaker\\GameForm.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAowFAAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAE8AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T09:51:52.238Z",
               "EditorCaption": ""
@@ -109,8 +109,7 @@
               "RelativeToolTip": "FP_Algebreaker\\Bullet.cs",
               "ViewState": "AgIAAGMAAAAAAAAAAAAkwHUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T15:23:10.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T15:23:10.737Z"
             },
             {
               "$type": "Document",
@@ -120,7 +119,7 @@
               "RelativeDocumentMoniker": "FP_Algebreaker\\Gun.cs",
               "ToolTip": "D:\\SEMESTER 3\\PBO\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\Gun.cs",
               "RelativeToolTip": "FP_Algebreaker\\Gun.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAUwA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAUwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T13:25:16.109Z",
               "EditorCaption": ""
@@ -135,7 +134,8 @@
               "RelativeToolTip": "FP_Algebreaker\\HighScoreForm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T21:56:28.002Z"
+              "WhenOpened": "2024-12-16T21:56:28.002Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -182,8 +182,7 @@
               "RelativeToolTip": "FP_Algebreaker\\Alien.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAAwEYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T18:23:22.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T18:23:22.657Z"
             },
             {
               "$type": "Document",
