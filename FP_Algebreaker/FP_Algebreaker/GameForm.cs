@@ -17,6 +17,9 @@ namespace FP_Algebreaker
         private const int _PlayerStartingPositionX = 32;
         private const int _PlayerStartingPositionY = 32;
         private const int _AnimationInterval = 100;
+        private const string HighScoreFilePath = @"Assets\HighScore.txt";
+        private int fileKillCount = 0;
+        private int fileTimeCount = 0;
 
         private Image _backgroundLevel = Image.FromFile(@"Assets\BackgroundLevel.png");
         private Player _mainCharacter;
@@ -25,8 +28,9 @@ namespace FP_Algebreaker
         private MathForm _mathForm;
         private Label _timeLabel = new Label();
         private Label _killCountLabel = new Label();
-        private int _timeAmount = 0;
+        public static int _timeAmount = 0;
         public static int _killCountAmount = 0;
+       
 
 
         public GameForm()
@@ -201,6 +205,34 @@ namespace FP_Algebreaker
             else
             {
                 _animationTimer.Stop();
+                
+                if (File.Exists(HighScoreFilePath))
+                {
+                    Debug.WriteLine($"Reading file. KillCount = {_killCountAmount}");
+                    string[] scores = File.ReadAllLines(HighScoreFilePath);
+
+                    
+                    Debug.WriteLine("Reading file");
+                    fileKillCount = int.Parse(scores[0]); // Line 1: Kill Score
+                    fileTimeCount = int.Parse(scores[1]); // Line 2: Time Score
+                    
+
+                    if (_killCountAmount > fileKillCount || (_killCountAmount == fileKillCount && _timeAmount < fileTimeCount))
+                    {
+                        Debug.WriteLine("Updating file");
+                        // Update the file with the new scores
+                        File.WriteAllLines(HighScoreFilePath, new string[]
+                        {
+                            _killCountAmount.ToString(),   // Line 1: Updated Kill Score
+                            _timeAmount.ToString()  // Line 2: Updated Time Score
+                        });
+                    }
+                }
+
+                _killCountAmount = 0;
+                _timeAmount = 0;
+                
+                this.Close();
             }
 
 

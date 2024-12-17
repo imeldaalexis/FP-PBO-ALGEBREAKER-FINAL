@@ -7,36 +7,56 @@
       "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|c:\\users\\lenovo\\documents\\kuliah sem 2\\oop\\fp-pbo-algebreaker-final\\fp_algebreaker\\fp_algebreaker\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|c:\\users\\lenovo\\documents\\kuliah sem 2\\oop\\fp-pbo-algebreaker-final\\fp_algebreaker\\fp_algebreaker\\highscoreform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\highscoreform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|c:\\users\\lenovo\\documents\\kuliah sem 2\\oop\\fp-pbo-algebreaker-final\\fp_algebreaker\\fp_algebreaker\\alien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\alien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\fp_algebreaker\\highscoreform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\highscoreform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|c:\\users\\lenovo\\documents\\kuliah sem 2\\oop\\fp-pbo-algebreaker-final\\fp_algebreaker\\fp_algebreaker\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|c:\\users\\lenovo\\documents\\kuliah sem 2\\oop\\fp-pbo-algebreaker-final\\fp_algebreaker\\fp_algebreaker\\mathform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\mathform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|c:\\users\\lenovo\\documents\\kuliah sem 2\\oop\\fp-pbo-algebreaker-final\\fp_algebreaker\\fp_algebreaker\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\fp_algebreaker\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|c:\\users\\lenovo\\documents\\kuliah sem 2\\oop\\fp-pbo-algebreaker-final\\fp_algebreaker\\fp_algebreaker\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|c:\\users\\lenovo\\documents\\kuliah sem 2\\oop\\fp-pbo-algebreaker-final\\fp_algebreaker\\fp_algebreaker\\iheatlh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\iheatlh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|c:\\users\\lenovo\\documents\\kuliah sem 2\\oop\\fp-pbo-algebreaker-final\\fp_algebreaker\\fp_algebreaker\\alien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\alien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|c:\\users\\lenovo\\documents\\kuliah sem 2\\oop\\fp-pbo-algebreaker-final\\fp_algebreaker\\fp_algebreaker\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\fp_algebreaker\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\fp_algebreaker\\mathform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\mathform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|c:\\users\\lenovo\\documents\\kuliah sem 2\\oop\\fp-pbo-algebreaker-final\\fp_algebreaker\\fp_algebreaker\\ihealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\ihealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|c:\\users\\lenovo\\documents\\kuliah sem 2\\oop\\fp-pbo-algebreaker-final\\fp_algebreaker\\fp_algebreaker\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|c:\\users\\lenovo\\documents\\kuliah sem 2\\oop\\fp-pbo-algebreaker-final\\fp_algebreaker\\fp_algebreaker\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|c:\\users\\lenovo\\documents\\kuliah sem 2\\oop\\fp-pbo-algebreaker-final\\fp_algebreaker\\fp_algebreaker\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|c:\\users\\lenovo\\documents\\kuliah sem 2\\oop\\fp-pbo-algebreaker-final\\fp_algebreaker\\fp_algebreaker\\iheatlh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\iheatlh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|c:\\users\\lenovo\\documents\\kuliah sem 2\\oop\\fp-pbo-algebreaker-final\\fp_algebreaker\\fp_algebreaker\\soalalgebraic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,14 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|c:\\users\\lenovo\\documents\\kuliah sem 2\\oop\\fp-pbo-algebreaker-final\\fp_algebreaker\\fp_algebreaker\\soal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\soal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|c:\\users\\lenovo\\documents\\kuliah sem 2\\oop\\fp-pbo-algebreaker-final\\fp_algebreaker\\fp_algebreaker\\mathform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\mathform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\fp_algebreaker\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{128BFA93-81E3-473C-B108-DCFAC21E9D2A}|FP_Algebreaker\\FP_Algebreaker.csproj|solutionrelative:fp_algebreaker\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,11 +74,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\Player.cs",
               "RelativeDocumentMoniker": "FP_Algebreaker\\Player.cs",
@@ -79,15 +91,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameForm.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "GameForm.cs",
               "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\GameForm.cs",
               "RelativeDocumentMoniker": "FP_Algebreaker\\GameForm.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\GameForm.cs [Design]",
-              "RelativeToolTip": "FP_Algebreaker\\GameForm.cs [Design]",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\GameForm.cs",
+              "RelativeToolTip": "FP_Algebreaker\\GameForm.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwB4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T17:11:05.984Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-02T09:51:52.238Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -99,69 +112,112 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GameForm.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\GameForm.cs",
-              "RelativeDocumentMoniker": "FP_Algebreaker\\GameForm.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\GameForm.cs",
-              "RelativeToolTip": "FP_Algebreaker\\GameForm.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAUwAABAAABAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\MainForm.cs",
+              "RelativeDocumentMoniker": "FP_Algebreaker\\MainForm.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\MainForm.cs [Design]",
+              "RelativeToolTip": "FP_Algebreaker\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T09:51:52.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T09:51:35.741Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Alien.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\Alien.cs",
-              "RelativeDocumentMoniker": "FP_Algebreaker\\Alien.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\Alien.cs*",
-              "RelativeToolTip": "FP_Algebreaker\\Alien.cs*",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAwD8AAAAjAAAAAAAAAA==",
+              "Title": "HighScoreForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\HighScoreForm.cs",
+              "RelativeDocumentMoniker": "FP_Algebreaker\\HighScoreForm.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\HighScoreForm.cs [Design]",
+              "RelativeToolTip": "FP_Algebreaker\\HighScoreForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T18:23:22.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T22:11:46.758Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Gun.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\Gun.cs",
-              "RelativeDocumentMoniker": "FP_Algebreaker\\Gun.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\Gun.cs",
-              "RelativeToolTip": "FP_Algebreaker\\Gun.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAlwCQAAAApAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "HighScoreForm.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\HighScoreForm.cs",
+              "RelativeDocumentMoniker": "FP_Algebreaker\\HighScoreForm.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\HighScoreForm.cs",
+              "RelativeToolTip": "FP_Algebreaker\\HighScoreForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T13:25:16.109Z"
+              "WhenOpened": "2024-12-16T21:56:28.002Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\MainForm.cs",
+              "RelativeDocumentMoniker": "FP_Algebreaker\\MainForm.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\MainForm.cs",
+              "RelativeToolTip": "FP_Algebreaker\\MainForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T09:47:12.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MathForm.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\MathForm.cs",
+              "RelativeDocumentMoniker": "FP_Algebreaker\\MathForm.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\MathForm.cs",
+              "RelativeToolTip": "FP_Algebreaker\\MathForm.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T15:20:25.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\GameForm.cs",
+              "RelativeDocumentMoniker": "FP_Algebreaker\\GameForm.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\GameForm.cs [Design]",
+              "RelativeToolTip": "FP_Algebreaker\\GameForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T17:11:05.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Alien.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\Alien.cs",
+              "RelativeDocumentMoniker": "FP_Algebreaker\\Alien.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\Alien.cs",
+              "RelativeToolTip": "FP_Algebreaker\\Alien.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T18:23:22.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\Bullet.cs",
               "RelativeDocumentMoniker": "FP_Algebreaker\\Bullet.cs",
               "ToolTip": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\Bullet.cs",
               "RelativeToolTip": "FP_Algebreaker\\Bullet.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAYwGgAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAuwAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T15:23:10.737Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IHeatlh.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\IHeatlh.cs",
-              "RelativeDocumentMoniker": "FP_Algebreaker\\IHeatlh.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\IHeatlh.cs",
-              "RelativeToolTip": "FP_Algebreaker\\IHeatlh.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "MathForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\MathForm.cs",
+              "RelativeDocumentMoniker": "FP_Algebreaker\\MathForm.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\MathForm.cs [Design]",
+              "RelativeToolTip": "FP_Algebreaker\\MathForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T14:47:11.534Z"
+              "WhenOpened": "2024-12-16T21:40:47.096Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "IHealthBar.cs",
               "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\IHealthBar.cs",
               "RelativeDocumentMoniker": "FP_Algebreaker\\IHealthBar.cs",
@@ -173,20 +229,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\MainForm.cs",
-              "RelativeDocumentMoniker": "FP_Algebreaker\\MainForm.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\MainForm.cs",
-              "RelativeToolTip": "FP_Algebreaker\\MainForm.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAgAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Gun.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\Gun.cs",
+              "RelativeDocumentMoniker": "FP_Algebreaker\\Gun.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\Gun.cs",
+              "RelativeToolTip": "FP_Algebreaker\\Gun.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAlwCQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T09:47:12.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T13:25:16.109Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
+              "Title": "IHeatlh.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\IHeatlh.cs",
+              "RelativeDocumentMoniker": "FP_Algebreaker\\IHeatlh.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\IHeatlh.cs",
+              "RelativeToolTip": "FP_Algebreaker\\IHeatlh.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T14:47:11.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "SoalAlgebraic.cs",
               "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\SoalAlgebraic.cs",
               "RelativeDocumentMoniker": "FP_Algebreaker\\SoalAlgebraic.cs",
@@ -198,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Soal.cs",
               "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\Soal.cs",
               "RelativeDocumentMoniker": "FP_Algebreaker\\Soal.cs",
@@ -207,28 +274,6 @@
               "ViewState": "AgIAAA8AAAAAAAAAAAAowCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T15:21:00.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MathForm.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\MathForm.cs",
-              "RelativeDocumentMoniker": "FP_Algebreaker\\MathForm.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\MathForm.cs",
-              "RelativeToolTip": "FP_Algebreaker\\MathForm.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAwwFoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T15:20:25.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\KULIAH SEM 2\\OOP\\FP-PBO-ALGEBREAKER-FINAL\\FP_Algebreaker\\FP_Algebreaker\\MainForm.cs",
-              "RelativeDocumentMoniker": "FP_Algebreaker\\MainForm.cs",
-              "ToolTip": "D:\\SEMESTER 3\\PBO\\FP Algebreaker\\FP Algebreaker\\FP_Algebreaker\\FP_Algebreaker\\MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T09:51:35.741Z"
             }
           ]
         }

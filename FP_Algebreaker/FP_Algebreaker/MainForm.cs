@@ -5,6 +5,10 @@ namespace FP_Algebreaker
         private Button _startButton;
         private Button _exitButton;
         private GameForm _gameForm;
+        private HighScoreForm _highScoreForm;
+        private Button _highScoreButton;
+        private int _topButtonStartPosition = 190;
+        private int _xOfAllButton = 300;
 
         public MainForm()
         {
@@ -23,19 +27,39 @@ namespace FP_Algebreaker
         {
             _startButton = new Button
             {
-                Size = new Size(100, 40),
+                Size = new Size(150, 40),
                 Text = "Start",
                 TextAlign = ContentAlignment.MiddleCenter,
-                Location = new Point(300, 250)
+                Location = new Point(_xOfAllButton, _topButtonStartPosition)
             };
             _startButton.Click += StartButton_Click;
             this.Controls.Add(_startButton);
+
+            _highScoreButton = new Button
+            {
+                Size = new Size(150, 40),
+                Text = "High Score",
+                TextAlign = ContentAlignment.MiddleCenter,
+                Location = new Point(_xOfAllButton, _topButtonStartPosition + 50)
+            };
+            _highScoreButton.Click += HighScoreButton_Click;
+            this.Controls.Add(_highScoreButton);
+
+            _exitButton = new Button
+            {
+                Size = new Size(150, 40),
+                Text = "Exit",
+                TextAlign = ContentAlignment.MiddleCenter,
+                Location = new Point(_xOfAllButton, _topButtonStartPosition + 100)
+            };
+            _exitButton.Click += ExitButton_Click;
+            this.Controls.Add(_exitButton);
+
+
         }
 
         private void StartButton_Click(object sender, EventArgs e)
         {
-            if (_gameForm == null || _gameForm.IsDisposed)
-            {
                 _gameForm = new GameForm();
                 _gameForm.FormClosed += (s, args) =>
                 {
@@ -45,12 +69,18 @@ namespace FP_Algebreaker
                 };
                 _gameForm.Show();
                 this.Hide();
-            }
         }
+
+        private void HighScoreButton_Click (object sender, EventArgs e)
+        {
+                _highScoreForm = new HighScoreForm();
+                _highScoreForm.ShowDialog();
+        }
+
 
         private void ExitButton_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
     }
 }

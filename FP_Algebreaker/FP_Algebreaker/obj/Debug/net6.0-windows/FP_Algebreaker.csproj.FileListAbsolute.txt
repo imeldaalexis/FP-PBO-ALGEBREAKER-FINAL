@@ -66,3 +66,5 @@ D:\SEMESTER 3\PBO\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\obj\Deb
 D:\SEMESTER 3\PBO\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\obj\Debug\net6.0-windows\FP_Algebreaker.genruntimeconfig.cache
 D:\SEMESTER 3\PBO\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\obj\Debug\net6.0-windows\ref\FP_Algebreaker.dll
 C:\Users\lenovo\Documents\KULIAH SEM 2\OOP\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\obj\Debug\net6.0-windows\FP_Algebreaker.GameForm.resources
+C:\Users\lenovo\Documents\KULIAH SEM 2\OOP\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\obj\Debug\net6.0-windows\FP_Algebreaker.MathForm.resources
+C:\Users\lenovo\Documents\KULIAH SEM 2\OOP\FP-PBO-ALGEBREAKER-FINAL\FP_Algebreaker\FP_Algebreaker\obj\Debug\net6.0-windows\FP_Algebreaker.HighScoreForm.resources
