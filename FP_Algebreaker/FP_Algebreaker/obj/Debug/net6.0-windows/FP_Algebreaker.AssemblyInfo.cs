@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FP_Algebreaker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+406254d092c79156303908234534f7667d944c94")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d256fecf8b34c2ee54540753b4ee4bd6f5babbab")]
 [assembly: System.Reflection.AssemblyProductAttribute("FP_Algebreaker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FP_Algebreaker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

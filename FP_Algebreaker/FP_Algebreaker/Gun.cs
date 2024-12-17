@@ -20,7 +20,7 @@ namespace FP_Algebreaker
             _gunPicBox = new PictureBox
             {
                 Size = new Size(32, 32),
-                BackColor = Color.Red,
+                BackColor = Color.Transparent,
                 SizeMode = PictureBoxSizeMode.StretchImage,
                 Location = PlayerPosition
             };
