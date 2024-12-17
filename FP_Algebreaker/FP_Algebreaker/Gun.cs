@@ -5,6 +5,7 @@ using System.Linq;
 using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
+using System.Media;
 
 namespace FP_Algebreaker
 {
@@ -38,6 +39,9 @@ namespace FP_Algebreaker
                 Bullet._currentAmmo -= 1;
                 Debug.WriteLine($"Bullet fired! Current Ammo: {Bullet._currentAmmo}");
                 player.UpdateAmmoLabel();
+
+                SoundPlayer shootSound = new SoundPlayer(@"Sound\PlayerShot.wav");  // Pastikan path sound file benar
+                shootSound.Play();
             }
             else
             {

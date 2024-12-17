@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -62,7 +63,7 @@ namespace FP_Algebreaker
                 Text = $"Ammo: {Bullet._currentAmmo}/{Bullet._maxAmmo}",
                 AutoSize = true,
                 BackColor = Color.Transparent,
-                ForeColor = Color.White,
+                ForeColor = Color.Yellow,
                 Font = new Font("Arial", 8, FontStyle.Bold)
             };
 
@@ -83,12 +84,21 @@ namespace FP_Algebreaker
         // Implementasi Interface IHealth
         public void TakeDamage(int damage)
         {
+            if(_isMoving == true) 
+            {
+                // Play the sound
+                SoundPlayer playerGotHitSound = new SoundPlayer(@"Sound\playerGotHit.wav");
+                playerGotHitSound.Play();
+            }
+
+
             CurrentHealth -= damage;
             if (CurrentHealth < 0)
             {
                 CurrentHealth = 0;
                 Die();  // Call the Die method if health reaches 0
             }
+
             Debug.WriteLine($"Player took {damage} damage. Current Health: {CurrentHealth}");
             UpdateHealthBar();
         }
@@ -161,6 +171,7 @@ namespace FP_Algebreaker
                     break;
 
             }
+            UpdateAmmoLabel();
             UpdateHealthBarPosition();
             UpdateAmmoLabelPosition();
             UpdateSprite();
@@ -171,6 +182,7 @@ namespace FP_Algebreaker
             _isMoving = false;
             _currentFrame = 0; // so it can be the standing emoji state again
             UpdateSprite();
+            
         }
 
         public void Animate()

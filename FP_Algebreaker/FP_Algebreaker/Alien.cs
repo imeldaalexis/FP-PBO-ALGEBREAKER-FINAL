@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Media;
 
 namespace FP_Algebreaker
 {
@@ -60,6 +61,11 @@ namespace FP_Algebreaker
         private void Die()
         {
             Debug.WriteLine("Alien has died");
+
+            // Tambahkan suara ketika alien mati
+            SoundPlayer deathSound = new SoundPlayer(@"Sound\alienDeath.wav");
+            deathSound.Play();
+
             GameForm._killCountAmount++;
             AlienPictureBox.Hide();
             HealthBar.Hide();

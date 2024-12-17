@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Media;
 using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
@@ -140,39 +141,54 @@ namespace FP_Algebreaker
 
         private void RespawnAlien(Alien deadAlien)
         {
-            Alien newAlien = null;
 
-            // Inisialisasi random generator
-            Random random = new Random();
-            int randomX = random.Next(50, this.ClientSize.Width - 100); // Rentang X (pastikan alien tetap dalam layar)
-            int randomY = random.Next(50, this.ClientSize.Height - 100); // Rentang Y
-
-            Point randomLocation = new Point(randomX, randomY);
-
-            // Buat alien baru berdasarkan tipe alien yang mati
-            if (deadAlien is RookieAlien)
+            Timer respawnTimer = new Timer(); // Timer untuk delay respawn
+            respawnTimer.Interval = 1500; // Set waktu delay menjadi 1.5 detik
+            respawnTimer.Tick += (sender, e) =>
             {
-                newAlien = new RookieAlien(randomLocation);
-            }
-            else if (deadAlien is KacynzkiAlien)
-            {
-                newAlien = new KacynzkiAlien(randomLocation);
-            }
-            else if (deadAlien is EldritchHorrorAlien)
-            {
-                newAlien = new EldritchHorrorAlien(randomLocation, _mainCharacter);
-            }
+                SoundPlayer spawnSound = new SoundPlayer(@"Sound\alienRespawn.wav");
+                spawnSound.Play();
 
-            if (newAlien != null)
-            {
-                _aliens.Add(newAlien);
-                this.Controls.Add(newAlien.AlienPictureBox);
-                this.Controls.Add(newAlien.HealthBar);
-                newAlien.UpdateHealthBarPosition();
+                Alien newAlien = null;
 
-                // Hubungkan event AlienDied untuk alien baru
-                newAlien.AlienDied += RespawnAlien;
-            }
+                // Inisialisasi random generator
+                Random random = new Random();
+                int randomX = random.Next(50, this.ClientSize.Width - 100); // Rentang X (pastikan alien tetap dalam layar)
+                int randomY = random.Next(50, this.ClientSize.Height - 100); // Rentang Y
+
+                Point randomLocation = new Point(randomX, randomY);
+
+                // Buat alien baru berdasarkan tipe alien yang mati
+                if (deadAlien is RookieAlien)
+                {
+                    newAlien = new RookieAlien(randomLocation);
+                }
+                else if (deadAlien is KacynzkiAlien)
+                {
+                    newAlien = new KacynzkiAlien(randomLocation);
+                }
+                else if (deadAlien is EldritchHorrorAlien)
+                {
+                    newAlien = new EldritchHorrorAlien(randomLocation, _mainCharacter);
+                }
+
+                if (newAlien != null)
+                {
+                    _aliens.Add(newAlien);
+                    this.Controls.Add(newAlien.AlienPictureBox);
+                    this.Controls.Add(newAlien.HealthBar);
+                    newAlien.UpdateHealthBarPosition();
+
+                    // Hubungkan event AlienDied untuk alien baru
+                    newAlien.AlienDied += RespawnAlien;
+                }
+
+                // Hentikan dan dispose timer setelah respawn selesai
+                respawnTimer.Stop();
+                respawnTimer.Dispose();
+            };
+
+            respawnTimer.Start(); // Mulai timer
         }
 
         private void onKeyDown(object sender, KeyEventArgs e)
@@ -237,7 +253,9 @@ namespace FP_Algebreaker
 
                 _killCountAmount = 0;
                 _timeAmount = 0;
-                
+
+                SoundPlayer gameoverSound = new SoundPlayer(@"Sound\gameOver.wav");
+                gameoverSound.Play();
                 this.Close();
             }
 
